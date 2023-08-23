@@ -1,3 +1,19 @@
+@font-face {
+    font-family:"Times-new-roman" ;
+    src: url("../fonts/Times-new-roman-italic.ttf") format("truetype");
+}
+@font-face {
+    font-family:"TTNorms-light" ;
+    src: url("../fonts/TTNorms-Light.otf") format("opentype");
+}
+@font-face {
+    font-family:"TTNorms-medium" ;
+    src: url("../fonts/TTNorms-Medium.otf") format("opentype");
+}
+@font-face {
+    font-family:"TTNorms-regular" ;
+    src: url("../fonts/TTNorms-Regular.otf") format("opentype");
+}
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
  html {
     line-height: 1.15; /* 1 */
