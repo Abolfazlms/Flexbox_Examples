@@ -387,7 +387,7 @@
     align-items: center;
   }
   .nav_logo{
-    margin-right: 1.5rem;
+    margin-right: 2rem;
   }
   .nav_logo_image{
 
@@ -412,6 +412,32 @@
     padding: 0.8rem 1.5rem;
     border-radius: 0.5rem;
   }
+  .header_content_bottom{
+    
+  }
+  .header_content{
+    
+  }
+  .header_content_right{
+    
+  }
+  .header_content_image{
+    
+  }
+  .header_content_left{
+    
+  }
+  .header_content_title{
+    
+  }
+  .header_content_text{
+    
+  }
+  .header_content_link{
+    
+  }
+
+
   @media only screen and (max-width: 1200px){
     .container{
         max-width: 960px;
