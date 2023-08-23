@@ -363,3 +363,13 @@
   *::after{
     box-sizing: inherit;
   }
+  body{
+    font-family: "TTNorms-regular";
+  }
+  .container {
+    max-width: 80rem;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
