@@ -413,28 +413,52 @@
     border-radius: 0.5rem;
   }
   .header_content_bottom{
-    
+    margin-top: 5.7rem;
   }
   .header_content{
-    
-  }
-  .header_content_right{
-    
-  }
-  .header_content_image{
-    
-  }
+    display: flex;
+    align-items: center;
+  }   
   .header_content_left{
-    
+    flex-basis:50% ;
+  }
+  .header_content_wrapper{
+    max-width: 28rem;
   }
   .header_content_title{
-    
+    color: #081D43;
+    font-family: "TTNorms-medium";
+    font-weight: normal;
+    line-height: 2.7rem;
   }
   .header_content_text{
+    color: #6C7890;
+    line-height: 2rem;
+  }
+  .header_content_links{    
+    display: flex;
+    margin-top: 1.5rem;
     
   }
   .header_content_link{
-    
+    text-decoration: none;    
+    color: #ffffff;
+    padding: 0.8rem 1.5rem;
+    border-radius: 0.5rem;
+    margin-right: 0.8rem;
+    width: 10rem;
+    text-align: center;
+    background-color: #0050C8;
+    display: block;    
+  }
+  .header_content_link:nth-child(1){
+    background-color: #57bc25;
+  }
+  .header_content_right{
+    flex-basis:50% ;    
+  }
+  .header_content_image{
+    width: 100%;
   }
 
 
