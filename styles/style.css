@@ -389,13 +389,13 @@
 
   }
   .menu_item{
-
+    list-style-type:none ;
   }
   .menu_link{
 
   }
   .header_link{
-    
+
   }
   @media only screen and (max-width: 1200px){
     .container{
