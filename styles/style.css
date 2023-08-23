@@ -419,7 +419,7 @@
     border-radius: 0.5rem;
   }
   .header_content_bottom{
-    margin-top: 5.7rem;
+    margin-top: 5.5rem;
   }
   .header_content{
     display: flex;
@@ -468,7 +468,6 @@
   }
 
   /*definition the main section of project*/
-
   .main{
     padding: 4rem 0;
   }
@@ -498,6 +497,7 @@
   .works_content_title{
     font-size: 1rem;
     color: #081D43;
+    font-weight: normal;
   }
   .works_content_description{
     color: #6C7890;
@@ -511,9 +511,57 @@
   .works_design_image{
     width: 100%;
   }
+  /*personal comments section*/
+  .personal_comments{
+    background-color: #2F5BEA;
+    color: #ffffff;
+    text-align: center;
+    padding: 2rem 0;
+  }
+  .personal_comments_title{    
+    font-family: "TTNorms-medium";
+    font-weight: normal;
+  }
+  .personal_comments_text{    
+    font-family: "TTNorms-light";
+  }
+  .comments{
+    margin: 3.5rem 0;
+    display: flex;
+  }
+  .comment{
+    background-color: #ffffff;
+    height: 16rem;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .comment_content{
+    text-align: left;
+    padding: 1.2rem;
+  }
+  .comment_body{
+    font-family: "Times-new-roman";
+    color: #7e8085;
+    line-height: 1.5rem;
+    margin: 0;
+  }
+  .comment_info{
+    display: flex;
+    border-top: 1px solid #E8EBEf;
+    padding:0.8rem 1.2rem;
+    align-items: center;
+  }
+  .comment_image{
 
+  }
+  .comment_person{
+    color: #000000;
+    margin: 0 0 0 0.5rem;
+  }
   /*responsive the project*/
-
   @media only screen and (max-width: 1200px){
     .container{
         max-width: 960px;
