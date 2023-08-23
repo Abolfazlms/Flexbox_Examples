@@ -1,20 +1,22 @@
-@font-face {
-    font-family:"Times-new-roman" ;
-    src: url("../fonts/Times-new-roman-italic.ttf") format("truetype");
-}
-@font-face {
-    font-family:"TTNorms-light" ;
-    src: url("../fonts/TTNorms-Light.otf") format("opentype");
-}
-@font-face {
-    font-family:"TTNorms-medium" ;
-    src: url("../fonts/TTNorms-Medium.otf") format("opentype");
-}
-@font-face {
-    font-family:"TTNorms-regular" ;
-    src: url("../fonts/TTNorms-Regular.otf") format("opentype");
-}
-/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+  /*import the project's fonts*/
+  @font-face {
+      font-family:"Times-new-roman" ;
+      src: url("../fonts/Times-new-roman-italic.ttf") format("truetype");
+  }
+  @font-face {
+      font-family:"TTNorms-light" ;
+      src: url("../fonts/TTNorms-Light.otf") format("opentype");
+  }
+  @font-face {
+      font-family:"TTNorms-medium" ;
+      src: url("../fonts/TTNorms-Medium.otf") format("opentype");
+  }
+  @font-face {
+      font-family:"TTNorms-regular" ;
+      src: url("../fonts/TTNorms-Regular.otf") format("opentype");
+  }
+
+  /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
  html {
     line-height: 1.15; /* 1 */
     -webkit-text-size-adjust: 100%; /* 2 */
@@ -355,6 +357,8 @@
     display: none;
   }
   
+  /*project initializing*/
+
   html{
     box-sizing: border-box;
   }
@@ -373,6 +377,8 @@
     padding-right: 1rem;
     padding-left: 1rem;
   }
+
+  /*definition the header of project*/
   .header{
 
   }
@@ -461,7 +467,32 @@
     width: 100%;
   }
 
+  /*definition the main section of project*/
 
+  .works{
+
+  }
+  .works_text{
+    font-size: 0.83rem;
+  }
+  .works_title{
+    font-family: "TTNorms-medium";
+  }
+  .works_content{
+
+  }
+  .works_content_item{
+
+  }
+  .works_content_title{
+    font-size: 0.83rem;
+  }
+  .works_content_description{
+
+  }
+
+  /*add media query and change site to flexible*/
+  
   @media only screen and (max-width: 1200px){
     .container{
         max-width: 960px;
