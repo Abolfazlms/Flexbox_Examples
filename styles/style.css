@@ -373,6 +373,9 @@
     padding-right: 1rem;
     padding-left: 1rem;
   }
+  .header{
+    
+  }
   @media only screen and (max-width: 1200px){
     .container{
         max-width: 960px;
@@ -393,3 +396,4 @@
         max-width: 100%px;
     }
   }
+  
