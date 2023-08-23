@@ -469,30 +469,51 @@
 
   /*definition the main section of project*/
 
+  .main{
+    padding: 4rem 0;
+  }
   .works{
-
+    text-align: center;
   }
   .works_text{
     font-size: 0.83rem;
+    font-weight: normal;
+    color: #6C7890;
+    margin-bottom :0;
   }
   .works_title{
     font-family: "TTNorms-medium";
+    color: #081D43;
+    margin-top: 0.7rem;
   }
   .works_content{
-
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 3rem;
   }
   .works_content_item{
-
+    font-family: "TTNorms-regular";
   }
   .works_content_title{
-    font-size: 0.83rem;
+    font-size: 1rem;
+    color: #081D43;
   }
   .works_content_description{
-
+    color: #6C7890;
+    max-width: 16rem;
+    line-height: 1.4rem;
+  }
+  .works_design{
+    max-width:31rem;
+    margin: 0 auto;
+  }
+  .works_design_image{
+    width: 100%;
   }
 
-  /*add media query and change site to flexible*/
-  
+  /*responsive the project*/
+
   @media only screen and (max-width: 1200px){
     .container{
         max-width: 960px;
