@@ -377,21 +377,26 @@
 
   }
   .nav{
-    
+
   }
-  .nav-logo{
-    
+  .nav_logo{
+
   }
-  .nav-logo-image{
-    
+  .nav_logo_image{
+
   }
   .menu{
+
+  }
+  .menu_item{
+
+  }
+  .menu_link{
+
+  }
+  .header_link{
     
   }
-  .menu-item{
-    
-  }
-header_link
   @media only screen and (max-width: 1200px){
     .container{
         max-width: 960px;
