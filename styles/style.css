@@ -525,18 +525,24 @@
   .personal_comments_text{    
     font-family: "TTNorms-light";
   }
-  .comments{
-    margin: 3.5rem 0;
+  .comments_container{
+    max-width:70rem;
+    margin: 3.5rem auto;
+  }
+  .comments{    
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
   }
   .comment{
     background-color: #ffffff;
-    height: 16rem;
+    min-height: 17rem;
     margin: 1rem;
     border-radius: 0.5rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    flex-basis: 18rem;
   }
   .comment_content{
     text-align: left;
@@ -553,9 +559,6 @@
     border-top: 1px solid #E8EBEf;
     padding:0.8rem 1.2rem;
     align-items: center;
-  }
-  .comment_image{
-
   }
   .comment_person{
     color: #000000;
