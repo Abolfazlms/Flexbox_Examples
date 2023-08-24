@@ -379,9 +379,6 @@
   }
 
   /*definition the header of project*/
-  .header{
-
-  }
   .header_top{
     display: flex;
     align-items: center;
@@ -394,9 +391,6 @@
   }
   .nav_logo{
     margin-right: 2rem;
-  }
-  .nav_logo_image{
-
   }
   .menu{
     display: flex;
@@ -474,13 +468,14 @@
   .works{
     text-align: center;
   }
-  .works_text{
+  .works_text,.portfolio_text{
     font-size: 0.83rem;
     font-weight: normal;
     color: #6C7890;
     margin-bottom :0;
+    text-transform: uppercase;
   }
-  .works_title{
+  .works_title,.portfolio_title{
     font-family: "TTNorms-medium";
     color: #081D43;
     margin-top: 0.7rem;
@@ -578,7 +573,32 @@
     display: block;
     margin: 1rem;
   }
+  /*portfolio section*/
+   .portfolio{
+    text-align: center;
+    padding: 2rem 3rem;
+   }
+  .portfolio_text{
 
+  }
+  .portfolio_title{
+
+  }
+  .portfolio_items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 3rem;   
+  }
+  .portfolio_item{
+    flex-basis: 23rem;;
+    margin-bottom: 2rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+  }
+  .portfolio_image{
+    width: 100%;    
+  }
   /*responsive the project*/
   @media only screen and (max-width: 1200px){
     .container{
