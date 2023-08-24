@@ -484,6 +484,7 @@
     font-family: "TTNorms-medium";
     color: #081D43;
     margin-top: 0.7rem;
+    font-weight: normal;
   }
   .works_content{
     margin-top: 3rem;
@@ -526,8 +527,8 @@
     font-family: "TTNorms-light";
   }
   .comments_container{
-    max-width:70rem;
-    margin: 3.5rem auto;
+    max-width:65rem;
+    margin: 3.5rem auto 0;
   }
   .comments{    
     display: flex;
@@ -564,6 +565,20 @@
     color: #000000;
     margin: 0 0 0 0.5rem;
   }
+
+  /*companies logo section*/
+  .companies{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+  }
+  .companies_logo{
+    display: block;
+    margin: 1rem;
+  }
+
   /*responsive the project*/
   @media only screen and (max-width: 1200px){
     .container{
