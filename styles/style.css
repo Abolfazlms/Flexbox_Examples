@@ -710,6 +710,10 @@
         margin-bottom: 1rem;
       }
     }
+    .companies{
+      justify-content: center;
+      margin-top: 2.5rem;
+    }
     
   }
   @media only screen and (max-width: 768px){
@@ -744,6 +748,13 @@
       flex-basis: 14rem;
       margin-bottom: 1.5rem;
     }
+    .comments{
+      flex-wrap:wrap;
+    }
+    .comment{
+      margin: 0 0 1.5rem 0;
+      flex-basis: 19rem;
+    }
   }
   @media only screen and (max-width: 576px){
     .container{
@@ -755,6 +766,9 @@
     .works_content_description{
       margin: 0 auto;
       max-width: 100%;
+    }
+    .comment{
+      flex-basis: 100%;
     }
   }
   
