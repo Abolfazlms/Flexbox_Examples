@@ -644,6 +644,7 @@
   .news_letter_txt{
     border: none;
     outline: none;
+    width: 100%;
   }
   .news_letter_button{
     background-color: #2F5BEA;
@@ -784,6 +785,9 @@
     }
     .comment{
       flex-basis: 100%;
+    }
+    .news_letter_button{
+      padding: 1rem 1.2rem;
     }
   }
   
