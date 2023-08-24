@@ -676,6 +676,9 @@
     .portfolio_item{
       flex-basis: 28rem;
     }
+    .news_letter_text{
+      max-width: 28rem;
+    }
   }
   @media only screen and (max-width: 992px){
     .container{
@@ -711,7 +714,7 @@
     }
     .portfolio_item{
       flex-basis: 20rem;
-    }
+    }    
   }
   @media only screen and (max-width: 768px){
     .container{
@@ -754,6 +757,17 @@
     }
     .portfolio_item{
       flex-basis: 100%;
+    }
+    .news_letter_wrapper{
+      flex-direction: column;
+    }
+    .news_letter_text{
+      max-width: 100%;
+      margin-bottom: 2rem;
+    }
+    .news_letter_email{
+      flex-basis: auto;
+      width: 100%;
     }
   }
   @media only screen and (max-width: 576px){
